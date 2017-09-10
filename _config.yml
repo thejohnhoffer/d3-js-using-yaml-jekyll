@@ -1,12 +1,12 @@
-title:        Delivering D3.js Data Sources Using YAML via Jekyll
-description:  Dynamically providing the data sources you need for a D3.js visualization using YAML driven Jekyll website.
-url:          http://d3.js.yaml.jekyll.apievangelist.com
+title:        Select Languages
+description:  Choose your language based on letters and characters.
+url:          http://a.hoff.in
 
-version:      1.1.1
+version:      0.0.0
 
 author:
-  name:       'Kin Lane'
-  email:      'info@apievangelist.com'
+  name:       'John Hoffer'
+  email:      'john@hoff.in'
 markdown:     kramdown
 permalink:    pretty
 pygments:     true
@@ -14,11 +14,11 @@ highlighter:  rouge
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md",".DS_Store"]
 
-image : http://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
-imagesecure : https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
+image : http://commons.wikimedia.org/wiki/File:Language_icon.svg
+imagesecure : https://commons.wikimedia.org/wiki/File:Language_icon.svg
 
 # Footer
-footer_title: API Evangelist
-footer_link: http://apievangelist.com
-footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_title: Hoff in
+footer_link: http://a.hoff.in
+footer_image_source: hhttps://en.wikipedia.org/wiki/Tigris#/media/File:B124ellst.png
 footer_image_width: 60
