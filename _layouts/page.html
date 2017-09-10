@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
+<article class="post">
 
-<div class="page">
-  <h2 class="page-title">{{ page.title }}</h2>
-  {{ content }}
-</div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% include post_list.html %}
+
+</article>
