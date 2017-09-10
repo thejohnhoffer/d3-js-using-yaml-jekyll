@@ -8,17 +8,11 @@ author:
   name:       'John Hoffer'
   email:      'john@hoff.in'
 markdown:     kramdown
+  input: gfm
 permalink:    pretty
-pygments:     true
 highlighter:  rouge
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md",".DS_Store"]
 
 image : http://commons.wikimedia.org/wiki/File:Language_icon.svg
 imagesecure : https://commons.wikimedia.org/wiki/File:Language_icon.svg
-
-# Footer
-footer_title: Hoff in
-footer_link: http://a.hoff.in
-footer_image_source: https://en.wikipedia.org/wiki/Tigris#/media/File:B124ellst.png
-footer_image_width: 60
