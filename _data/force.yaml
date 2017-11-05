@@ -1,0 +1,14 @@
+---
+nodes:
+- name: B
+  children:
+    - name: C
+    - name: D
+- name: C
+  children:
+    - name: B
+    - name: D
+- name: D
+graph:
+  children:
+    - *A

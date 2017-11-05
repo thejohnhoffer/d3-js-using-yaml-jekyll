@@ -1,0 +1,10 @@
+{% capture script_tag %}
+<script
+{% for pair in script%}
+{% assign key = pair[1] | default: "src" %}
+{% assign val = pair[0] | default: script %}
+"{{key}}"={{val}}
+{% endfor %}
+></script>
+{% endcapture %}
+{{ script_tag | strip_newlines}}

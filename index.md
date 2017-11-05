@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Language Selection
 
 [Here][post0] is a design for language selection. It may be faster than a simple list.

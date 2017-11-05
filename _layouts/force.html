@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% assign scripts = page.scripts | default: "" %}
+{% for script in scripts %}
+{% capture script %}{{script}}{% endcapture %}
+{% include script.html %}
+{% endfor %}
+
 <article class="post">
 
   <div class="post-content">
